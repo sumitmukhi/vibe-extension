@@ -50,13 +50,11 @@ function App() {
         </Typography>
       </CardBody>
       <CardFooter className="pt-0">
-        <Button
-          ripple={false}
-          fullWidth={true}
+        <a href="http://skyrise-ui.vercel.app/checkout"
           className="bg-blue-gray-900/10 text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
         >
-          <a href="http://skyrise-ui.vercel.app/checkout" >Add to Cart</a>
-        </Button>
+          Add to Cart
+        </a>
       </CardFooter>
     </Card>
     </div>
